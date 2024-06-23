@@ -1,4 +1,4 @@
-import { carHub, gerichtRes, gshop, noteease, shoppe } from "@/public";
+import { carHub, gerichtRes, gshop, horizon, noteease, shoppe } from "@/public";
 
 export const links = [
   {
@@ -25,10 +25,18 @@ export const links = [
 
 export const projects = [
   {
+    title: "Horizon",
+    description:
+      "Horizon is a sleek news website with a dynamic interface built with React and Tailwind CSS. It features light/dark modes, article favoriting, keyword searches, category filters, and pagination. Powered by Redux Toolkit and GNews API, it offers a fast, personalized reading experience.",
+    tags: ["React", "Tailwind CSS", "GNews API", "Redux Toolkit"],
+    imageUrl: horizon,
+    href: "https://horizon-news.netlify.app/",
+  },
+  {
     title: "NoteEase",
     description:
       "NoteEase is a MERN stack app with features for adding, editing, deleting, pinning, and searching notes, plus user authentication for account creation, login, and user deletion.",
-    tags: ["Next.js", "TailwindCSS", "Node.js", "MongoDB", "Express.js"],
+    tags: ["Next.js", "Tailwind CSS", "Node.js", "MongoDB", "Express.js"],
     imageUrl: noteease,
     href: "https://noteease.netlify.app",
   },
@@ -36,7 +44,7 @@ export const projects = [
     title: "GShop",
     description:
       "GShop is a top-notch e-commerce site made just for gamers. It offers a smooth, immersive experience. Add your favorites to your cart, and customize quantities.",
-    tags: ["Next.js", "JavaScript", "TailwindCSS", "Sanity CMS"],
+    tags: ["Next.js", "JavaScript", "Tailwind CSS", "Sanity"],
     imageUrl: gshop,
     href: "https://gshop-e.netlify.app",
   },
@@ -44,7 +52,7 @@ export const projects = [
     title: "Shoppe",
     description:
       "Shoppe is an ecommerce website where you can buy different products. Sanity CMS for easy content management and add to cart functionality.",
-    tags: ["Next.js", "JavaScript", "CSS", "Sanity CMS"],
+    tags: ["Next.js", "JavaScript", "CSS", "Sanity"],
     imageUrl: shoppe,
     href: "https://shoppe-r.netlify.app/",
   },
@@ -60,7 +68,7 @@ export const projects = [
     title: "CarHub",
     description:
       "Cars Hub is a car rental website developed in React, Next.js, TypeScript, TailwindCSS for styling  and provides filtering options like car name, model, etc.",
-    tags: ["Next.js", "Typescript", "TailwindCSS", "API"],
+    tags: ["Next.js", "Typescript", "Tailwind CSS", "Rapid API"],
     imageUrl: carHub,
     href: "https://car-col.netlify.app/",
   },
@@ -78,6 +86,6 @@ export const skills = [
   "Node.js",
   "MongoDB",
   "Redux Tooklit",
-  "Sanity.io",
+  "Sanity",
   "GitHub",
 ] as const;
