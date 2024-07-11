@@ -1,4 +1,4 @@
-import { carHub, gerichtRes, gshop, horizon, noteease, shoppe } from "@/public";
+import { carepusle, carHub, gshop, horizon, noteease, shoppe } from "@/public";
 
 export const links = [
   {
@@ -24,6 +24,22 @@ export const links = [
 ] as const;
 
 export const projects = [
+  {
+    title: "Carepulse",
+    description:
+      "CarePulse is a doctor appointment booking platform built with Next.js and Tailwind CSS, featuring SMS reminders via Twilio, an admin dashboard for appointment management, and using Shadcn UI components for its interface. It ensures secure data handling with Appwrite and proactive error monitoring through Sentry integration.",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Appwrite",
+      "Twilio",
+      "Sentry",
+      "Shadcn UI",
+    ],
+    imageUrl: carepusle,
+    href: "https://carepulse.netlify.app/",
+  },
   {
     title: "Horizon",
     description:
@@ -55,14 +71,6 @@ export const projects = [
     tags: ["Next.js", "JavaScript", "CSS", "Sanity"],
     imageUrl: shoppe,
     href: "https://shoppe-r.netlify.app/",
-  },
-  {
-    title: "Gericht",
-    description:
-      "Gericht is a restaurant landing page developed in React and styled in CSS, offering a modern UI and UX experience ensuring a fully responsive layout.",
-    tags: ["React", "JavaScript", "CSS"],
-    imageUrl: gerichtRes,
-    href: "https://gericht-rt.netlify.app",
   },
   {
     title: "CarHub",

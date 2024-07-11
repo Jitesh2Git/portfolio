@@ -17,7 +17,7 @@ export default function ThemeSwitch() {
         dark:bg-gray-950 dark:text-white"
       onClick={toggleTheme}
     >
-      {theme === "light" ? <BsSun /> : <BsMoon />}
+      {theme !== "light" ? <BsSun /> : <BsMoon />}
     </button>
   );
 }
